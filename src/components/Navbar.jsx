@@ -2,9 +2,12 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav>
-        <h1>Navbar goes here</h1>
-    </nav>
+    <header>
+      <nav>
+        <img src="src\assets\react-icon.png" height="60px"alt="React logo"/>
+        <span>ReactFacts</span>
+      </nav>
+    </header>
   )
 }
 
